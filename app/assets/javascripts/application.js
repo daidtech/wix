@@ -17,5 +17,4 @@
 
 //= require popper
 //= require bootstrap
-//= require jquery3
-//= require bootstrap
+//= require jquery
