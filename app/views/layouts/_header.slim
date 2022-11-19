@@ -1,16 +1,23 @@
-.header-block.container-fluid
-  .row
-    .logo-block.col-4
-      image.logo src='https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg'
-    .navigation.col-4
-      ul.nav
-        li.nav-item
-          a.nav-link.active aria-current="page" href="#"  Active
-        li.nav-item
-          a.nav-link href="#"  Link
-        li.nav-item
-          a.nav-link href="#"  Link
-        li.nav-item
-          a.nav-link.disabled Disabled
-    .search-user-infor.col-4
-      input style="width: 200px;"
+header.header-block.container-fluid
+  .row.h-100
+    .col-4
+      .logo-block.h-100
+        image.logo src='https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg'
+    .col-4.align-self-center
+      .navigation
+        ul.nav.justify-content-center
+          li.nav-item
+            a.nav-link.active aria-current="page" href="#"
+              | Shop
+          li.nav-item
+            a.nav-link href="#" About
+          li.nav-item
+            a.nav-link href="#"  FAQ
+          li.nav-item
+            a.nav-link href="#"  Contact
+    .col-4.align-self-center
+      .search-user-infor
+        input style="width: 200px;"
+        span.pl-4
+          i.material-icons face
+        span Login
