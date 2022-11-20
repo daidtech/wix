@@ -1,3 +1,4 @@
+@import "reset_css";
 @import "bootstrap";
 @import "material_icons";
 
@@ -19,6 +20,29 @@
     padding: 0 1rem 3rem;
     .thumnail {
       max-width: 100%;
+    }
+  }
+}
+footer {
+  height: 350px;
+  .footer-infor {
+    .footer-link {
+      color: unset;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .subscription {
+    .email-input {
+      border: 0;
+      border-bottom: 2px solid #ffffff;
+      background-color: inherit;
+      color: #ffffff;
+      padding-left: 1rem;
+      &:focus-visible {
+        outline: none;
+      }
     }
   }
 }
