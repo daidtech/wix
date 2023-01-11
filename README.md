@@ -47,5 +47,7 @@ Admin page:
 Stage 2:
 Stage 3:
 
+# Home page:
+![firstImage](public/images/homepage110123.png)
 
 # Schema:
