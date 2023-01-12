@@ -12,6 +12,9 @@ ruby-2.5.3
 
 List function:
 Store Page:
+  * Home Index:
+    * Show list product
+    *  
   * Show list product item (price, images (have many image), name, code_product, color, price, ), pagination
     * top save label on item
     * View detail show product info, return & refunction description, shipping info, product description
