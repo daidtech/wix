@@ -13,16 +13,16 @@
 
 ## COlor:
 ## Size
-
+* size name [s|sm|m|l|xl|xxls]
 ## Cart
 * customer_id: foreign(Customer, class: user)
 
 
-## CartDetail
+## CartLine
 * product_id:
 * quantity:
 * color:
-*
+* cart: foreign(Cart, class: Cart)
 
 ## Order
 
