@@ -88,3 +88,32 @@
 * persent: -->
 
 
+# Task:
+
+## FrontEnd
+
+- Home page > Handle navigation in header, CSS active tag on navigation
+- Home page > Update UI search bar, login icon, cart icon
+- Home page > Handle search bar
+- Home page > Add icon add to cart, show model popup add to cart show detail product
+    - Product detail Model >
+- Home page > Update UI body
+- Home page > Update UI footer, about us
+- Home page > Add link to footer make it work
+- Home page > Update UI subscribe now input, Handle subscribe
+- Login page > Update UI login page, register page
+
+## BackEnd
+
+- Add backend layout
+- CRUD product (default size, color, manufacturer is hardcoded)
+- Manage Order
+- Manage Order Add chart
+- Manage Inventory
+- Mail marketing
+
+## Config:
+
+- Configure webpack
+- Gem devise, cancancan, rolify
+- Handle upload product
