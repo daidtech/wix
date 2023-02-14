@@ -73,7 +73,7 @@ Stage 3
 - Blogs > Add blog tag
 - Add CMS to update blog content
 - Add CMS update content [about info, link fb, youtube]
-
+- Hanlde stripe payment and momo payment, paypal
 
 ## Config:
 - Configure webpack             --> done
