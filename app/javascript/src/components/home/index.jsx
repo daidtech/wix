@@ -8,7 +8,7 @@ const Home = () => {
       <div className="row">
         {
           [1,2,3,4,5,6,7].map(element => {
-           return <ProductBlock />
+           return <ProductBlock key={element}/>
           })
         }
       </div>
