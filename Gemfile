@@ -70,3 +70,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'webpacker', '~> 5.0'
 gem 'react_on_rails',  '>= 11.2.2'
 gem 'mini_racer', '~> 0.6.2'
+gem 'cancancan', '~> 3.4.0'
+gem "rolify", '~> 6.0.1'
