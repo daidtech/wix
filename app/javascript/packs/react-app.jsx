@@ -6,7 +6,8 @@ import { createRoot } from 'react-dom/client';
 import PropTypes from 'prop-types'
 import './react-app.scss'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from '../src/components/home'
+import Home from '../src/components/shop/home'
+import Admin from '../src/components/admin'
 // import InstructorIndex from '../src/components/admin/instructor_index'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Routes>
         <Route path='/home' element={ <Home/> } />
+        <Route path='/admin' element={ <Home/> } />
         {/* <Route path='instructors/new' element={ <Instructor/> } /> */}
       </Routes>
     </div>
@@ -22,8 +24,6 @@ function App() {
 
 document.addEventListener('DOMContentLoaded', () => {
   createRoot(document.getElementById('react-app')).render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+   <Admin />
   );
 })
