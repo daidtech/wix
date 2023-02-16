@@ -1,12 +1,5 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-ruby-2.5.3
+Gem
 
 # FUNCTIONS:
 List function:
@@ -38,16 +31,6 @@ Store Page:
     color_hash
   * manage product
     (name, price, currency, code_name, color, quantity, images, product description, return policy,shipping info, description detail)
-# Stage:
-Stage 1:
-Userpage:
-+ show list product
-+ show product detail
-Admin page:
-+ admin page to add product
-
-Stage 2:
-Stage 3:
 
 # Home page:
 ![firstImage](public/images/homepage110123.png)
@@ -57,32 +40,45 @@ Stage 3:
 # Task:
 
 ## FrontEnd
-
+Stage 1:
 - Home page > Handle navigation in header, CSS active tag on navigation
 - Home page > Update UI search bar, login icon, cart icon
 - Home page > Handle search bar
-- Home page > Add icon add to cart, show model popup add to cart show detail product
-    - Product detail Model >
 - Home page > Update UI body, handle hover product image, zooming it
 - Home page > Update UI footer, about us
 - Home page > Add link to footer make it work
-- Home page > Update UI subscribe now input, Handle subscribe
+- Home page > Update UI subscribe now input
+- Home page > Add icon add to cart, show model popup add to cart show detail product
+    - Product detail Model > Add UI, Handle add product to cart
 - Login page > Update UI login page, register page
+- Home page > fHandle subscribe
+- Home page > add responsive on mobile
 
-## BackEnd
 
-- Add backend layout
-- CRUD product (default size, color, manufacturer is hardcoded)
-- Manage Order
-- Manage Order Add chart
-- Manage Inventory
-- Mail marketing
+- Admin > Add backend layout   --> doing
+- Admin > CRUD product (default size, color, manufacturer is hardcoded) --> doing
+- Admin > Manage Order
+- Admin > Manage Order Add chart
+- Admin > Manage Inventory
+- Admin > Mail marketing
+
+Stage 2:
+- Cart fixed on left side > add UI  > handle view cart
+- Add cart page 
+- handle click item in cart to navigate to product detail
+
+Stage 3
+- Login Page > 
+- Facebook and Youtube link > Left side
+- Blogs > Add blog tag
+- Add CMS to update blog content
+- Add CMS update content [about info, link fb, youtube]
+- Hanlde stripe payment and momo payment, paypal
 
 ## Config:
-
-- Configure webpack
-- Gem devise, cancancan, rolify
-- Handle upload product
+- Configure webpack             --> done
+- Gem devise, cancancan, rolify --> doing
+- Handle upload product    
 
 
 
