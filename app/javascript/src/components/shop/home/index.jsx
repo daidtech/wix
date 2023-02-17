@@ -1,6 +1,6 @@
 import React from 'react'
 import About from '../about';
-import ProductBlock from '../poduct_block';
+import ProductBlock from '../product_block';
 import './style.scss'
 const Home = () => {
   return (
