@@ -2,3 +2,39 @@
 @import "bootstrap";
 @import "material_icons";
 
+.header-block {
+  height: 80px;
+  padding-top: 1rem;
+  .logo-block img.logo {
+    height: inherit;
+    object-fit: contain;
+  }
+  .navigation, .search-user-infor {
+    align-self: center;
+  }
+}
+
+
+footer {
+  height: 350px;
+  .footer-infor {
+    .footer-link {
+      color: unset;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .subscription {
+    .email-input {
+      border: 0;
+      border-bottom: 2px solid #ffffff;
+      background-color: inherit;
+      color: #ffffff;
+      padding-left: 1rem;
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+}
