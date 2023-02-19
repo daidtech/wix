@@ -1,7 +1,14 @@
 import * as React from 'react'
 import './style.scss'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
+
 const AdminLayout = () => {
+  let { adminTag } = useParams();
+
+  React.useEffect(() => {
+    console.log('changing...')
+  })
+
   return (
     <div className='side-bar'>
       <div className="d-flex flex-column flex-shrink-0 p-3 bg-light side-bar-content">
@@ -12,32 +19,28 @@ const AdminLayout = () => {
         <hr/>
         <ul className="nav nav-pills flex-column mb-auto">
           <li className="nav-item">
-            <a href="#" className="nav-link active" aria-current="page">
-              <svg className="bi me-2" width="16" height="16"><use href="#home"/></svg>
-              Products
+            <a href="/admin/dashboard" className={`nav-link ${adminTag === "dashboard" && "active"}`} aria-current="page">
+              Dashboard
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link link-dark">
-              <svg className="bi me-2" width="16" height="16"><use href="#speedometer2"/></svg>
+            <a href="/admin/home" className="nav-link link-dark">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link link-dark">
-              <svg className="bi me-2" width="16" height="16"><use href="#table"/></svg>
+            <a href="/admin/orders" className="nav-link link-dark">
               Orders
             </a>
           </li>
           <li>
             <Link to="/admin/products" className='nav-link link-dark'>
-              <svg className="bi me-2" width="16" height="16"><use href="/admin/products"/></svg>
+              <i class="material-icons outlined">inventory</i>
               Products
             </Link>
           </li>
           <li>
-            <a href="#" className="nav-link link-dark">
-              <svg className="bi me-2" width="16" height="16"><use href="#people-circle"/></svg>
+            <a href="/admin/customers" className="nav-link link-dark">
               Customers
             </a>
           </li>

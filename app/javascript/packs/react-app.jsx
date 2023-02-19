@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from '../src/components/shop/home'
 import AdminLayout from '../src/layouts/admin'
 import Products from '../src/components/admin/products'
+import Admin from '../src/components/admin'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Routes>
         <Route path='/home' element={ <Home/> } />
         <Route path='/admin' element={ <AdminLayout/> } />
-        <Route path='/admin/products' element={ <Products/> } />
+        <Route path='/admin/:adminTag' element={ <Admin/> } />
       </Routes>
     </div>
   )
