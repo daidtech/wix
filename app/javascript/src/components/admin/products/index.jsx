@@ -1,14 +1,12 @@
 import * as React from 'react'
 import './style.scss'
-import AdminLayout from '../../../layouts/admin'
 const Products = () => {
   return (
     <div className='products'>
-      <AdminLayout />
       <div className="products-content">
         <div className="container">
           <div className="row">
-            <table class="table table-striped table-hover product-table">
+            <table className="table table-striped table-hover product-table">
               <thead>
                 <tr>
                   <th scope="col">#</th>
@@ -32,7 +30,7 @@ const Products = () => {
                 </tr>
                 <tr>
                   <th scope="row">3</th>
-                  <td colspan="2">Larry the Bird</td>
+                  <td colSpan="2">Larry the Bird</td>
                   <td>@twitter</td>
                 </tr>
               </tbody>

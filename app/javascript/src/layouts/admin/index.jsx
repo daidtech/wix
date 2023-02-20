@@ -34,7 +34,7 @@ const AdminLayout = () => {
             </a>
           </li>
           <li>
-            <Link to="/admin/products" className='nav-link link-dark'>
+            <Link to="/admin/products" className={`nav-link ${adminTag === "products" && "active"}`}>
               <i class="material-icons outlined">inventory</i>
               Products
             </Link>
