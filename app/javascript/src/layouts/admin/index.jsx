@@ -5,10 +5,6 @@ import { Link, useParams } from 'react-router-dom'
 const AdminLayout = () => {
   let { adminTag } = useParams();
 
-  React.useEffect(() => {
-    console.log('changing...')
-  })
-
   return (
     <div className='side-bar'>
       <div className="d-flex flex-column flex-shrink-0 p-3 bg-light side-bar-content">
@@ -18,11 +14,10 @@ const AdminLayout = () => {
         </a>
         <hr/>
         <ul className="nav nav-pills flex-column mb-auto">
-          <li className="nav-item">
-            <a href="/admin/dashboard" className={`nav-link ${adminTag === "dashboard" && "active"}`} aria-current="page">
-              Dashboard
-            </a>
-          </li>
+          <Link to="/admin/dashboard" className={`nav-link ${adminTag === "dashboard" && "active"}`}>
+            <i class="material-icons outlined">inventory</i>
+            Dashboard
+          </Link>
           <li>
             <a href="/admin/home" className="nav-link link-dark">
               Home
