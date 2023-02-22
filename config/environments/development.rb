@@ -63,4 +63,5 @@ Rails.application.configure do
 
   config.sass.preferred_syntax = :sass
   config.sass.syntax = :sass
+  Paperclip.options[:command_path] = "/usr/local/bin/"
 end

@@ -36,10 +36,10 @@ Product
 + heart_count
 + heart (reference)
 + product_detail
-+ refunc_policy
++ refund_policy
 + shipping_info
 + product_description
-+ product_details (refrence)
++ product_details (reference)
 
 ProductDetail
 + colors (reference)
@@ -56,7 +56,8 @@ Heart
 Info
 + about shop
 + link_face_book
-+ intergram
++ instagram
++ twitter
 + wixcom
 
 Cart
