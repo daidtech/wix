@@ -1,0 +1,18 @@
+html
+  head
+    title
+      | Shopify
+    = csrf_meta_tags
+    = csp_meta_tag
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  body
+    .layout-devise
+      .container-fluid
+        .row
+          .col-7.left-side
+            img src="./images/aodai2.png" alt="login-banner" className="thumnail"
+          .col-5.right-side
+            = yield
