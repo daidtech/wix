@@ -9,10 +9,13 @@ html
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
   body
-    .layout-devise
+    .layout-devise.align-items-center.min-vh-100
       .container-fluid
         .row
           .col-7.left-side
-            img src="./images/aodai2.png" alt="login-banner" className="thumnail"
+            img.left-side-background src="/images/background_devise.jpg"
+            img src="/images/ruby.png" alt="login-banner" className="thumnail"
+            h3
+              | "You have the power to create your own destiny. Don't give up hope and keep striving for freedom, for it is within your reach!"
           .col-5.right-side
             = yield
