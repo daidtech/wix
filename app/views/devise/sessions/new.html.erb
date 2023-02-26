@@ -1,5 +1,21 @@
 <h2>Good Morning, User</h2>
+<div class="login-with-google">
+  <button class="btn btn-primary">
+    <img src="/images/google_icon.png">
+    <span> Sign in with Google </span>
+  </button>
+</div>
+<div class="break-line">
+  <div class="break-line-left">
 
+  </div>
+  <span>
+    or
+  </span>
+  <div class="break-line-right">
+
+  </div>
+</div>
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field">
     <%= f.label :email %><br />
