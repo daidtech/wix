@@ -42,6 +42,7 @@ gem 'jquery-rails'
 gem 'material_icons'
 gem 'devise'
 gem 'foreman', '~> 0.87.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -73,3 +74,5 @@ gem 'mini_racer', '~> 0.6.2'
 gem 'cancancan', '~> 3.4.0'
 gem "rolify", '~> 6.0.1'
 gem "paperclip", "~> 6.0.0"
+gem "shakapacker", "= 7.0"
+gem "react-rails", "= 2.7"
