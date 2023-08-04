@@ -1007,6 +1007,11 @@
     "@babel/helper-validator-identifier" "^7.22.5"
     to-fast-properties "^2.0.0"
 
+"@coreui/icons-react@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@coreui/icons-react/-/icons-react-2.2.1.tgz#4d2ee7836c3e555acb3dd0b2f676af2d651a7b0c"
+  integrity sha512-44bdKV5fZpVRpY6M7AL15tSAB2S4/xFzAojMsYe9k46mjyX7QLAKoowioEtLXxOqCRUBBBgxAXyjvJeeJlZwxg==
+
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
