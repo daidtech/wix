@@ -4,7 +4,7 @@ class CreateProducts < ActiveRecord::Migration[7.0]
       t.string :name
       t.boolean :show_in_online_store
       t.boolean :show_in_point_to_sales
-      t.string :name
+      t.string :product_name
       t.string :ribbon
       t.text :descrition
       t.float :price
